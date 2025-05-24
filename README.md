@@ -1,25 +1,13 @@
-This is the repository for **Lean 4**.
+This is a fork of the lean4 repository, but it serves as the development ground
+for the Razor Programming Language. This is language is written in Lean and uses
+many of the same primitive patterns as lean, however it aims to have:
 
-# About
-
-- [Quickstart](https://lean-lang.org/documentation/setup/)
-- [Homepage](https://lean-lang.org)
-- [Theorem Proving Tutorial](https://lean-lang.org/theorem_proving_in_lean4/)
-- [Functional Programming in Lean](https://lean-lang.org/functional_programming_in_lean/)
-- [Documentation Overview](https://lean-lang.org/documentation/)
-- [Language Reference](https://lean-lang.org/doc/reference/latest/)
-- [Release notes](RELEASES.md) starting at v4.0.0-m3
-- [Examples](https://lean-lang.org/documentation/examples/)
-- [External Contribution Guidelines](CONTRIBUTING.md)
-
-# Installation
-
-See [Setting Up Lean](https://lean-lang.org/documentation/setup/).
-
-# Contributing
-
-Please read our [Contribution Guidelines](CONTRIBUTING.md) first.
-
-# Building from Source
-
-See [Building Lean](doc/make/index.md).
+- A much, **much** more accessible syntax than Lean, spiritually much more
+  similar to Rust syntax than Lean syntax
+- Mostly use monads behind the scenes, allowing users to think less
+  in terms of how to use monads to program some behavior, and more
+  in terms of the execution and data model of the language
+- A series of built-in primitives that makes it substantially easier
+  to formally prove statements about algorithms written in Razor
+- Good tooling, including language server support, a debugger, syntax + semantic
+  highlighting, built-in testing environment.
